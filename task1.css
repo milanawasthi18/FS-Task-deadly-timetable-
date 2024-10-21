@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color:rgb(170, 222, 229);
+  padding: 70px;
+}
+
+.timetable {
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: white;
+  border: 2px solid rgb(82, 151, 204);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color:rgb(49, 106, 110);
+  color: rgb(180, 187, 233);
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+td[colspan="6"] {
+  background-color: hwb(312 78% 4%);
+  font-weight: bold;
+}
